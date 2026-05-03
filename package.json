@@ -1,9 +1,15 @@
 {
-  "name": "ynab-mcp",
+  "name": "@juancsanchez/ynab-mcp",
   "version": "1.0.0",
   "description": "MCP server for YNAB - transaction validation and budget recommendations",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "ynab-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
